@@ -1,0 +1,27 @@
+{
+  "name": "axe-agent",
+  "version": "0.1.0",
+  "description": "MCP server to help solve AXE accessibility errors",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": ["mcp", "accessibility", "axe", "a11y"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "eslint": "^8.57.0",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  }
+}
